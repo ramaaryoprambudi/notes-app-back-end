@@ -37,7 +37,6 @@ const notesHandler = (request,h) =>{
     }
 
     if(isSuccess){
-         console.log('User input:', {id ,title, tags, body,createdAt });
         const response = h.response ({
             status : 'success',
             message : 'Notes created successfully',
